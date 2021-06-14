@@ -1,0 +1,214 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/styles/reset.css">
+  <link rel="stylesheet" href="./assets/styles/tailwind.css">
+  <title>Document</title>
+</head>
+  <body>
+    <header class="contained md:px-0 lg:px-4">
+      <nav class="flex justify-between items-center py-8">
+        <div class="">
+          <img class="min-w-max" src="./assets/img/logo.svg" alt="Avalado Logo - Sell your goods faster with Avalado.">
+        </div>
+        <button class="md:hidden p-4">
+          <img src="./assets/img/hamburger.svg" alt="menu icon">
+        </button>
+        <ul class="hidden md:flex space-x-10">
+          <li><a href="#" class="text-gray-500 font-semibold">Features</a></li>
+          <li><a href="#" class="text-gray-500 font-semibold">Pricing</a></li>
+          <li><a href="#" class="text-gray-500 font-semibold">Contact Us</a></li>
+        </ul>
+        <div class="hidden md:block">
+          <button class="link mr-3">Login</button>
+          <button class="btn nav_btn">Sign Up</button>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="contained flex flex-wrap justify-between items-center py-16 text-center md:text-left">
+        <div class="w-full md:w-6/12">
+          <h1 class="py-3 text-4xl md:text-6xl font-extrabold text-gray-800">
+            Sell your goods faster with Avalado.
+          </h1>
+          <p class="sub-text">
+            With no extra cost, make your product 
+            available for sale on our platform
+          </p>
+          <div>
+            <button class="btn block md:inline-block mx-auto md:mr-5">Become a Supplier</button>
+            <button class="link my-3 md:mt-0">
+              Go to Marketplace
+              <img class="inline-block" src="./assets/img/arrow-right.svg" alt="arrow right">
+            </button>
+          </div>
+        </div>
+        <div class="w-full md:w-6/12">
+          <img class="mx-auto" src="./assets/img/add-to-cart.svg" alt="Avalado - Add product to cart illustration">
+        </div>
+      </section>
+
+      <section class="contained">
+        <header class="">
+          <p class="text-blue-500 font-semibold text-sm md:text-2xl">Our platform allows you to</p>
+          <h2 class="text-gray-800 tracking-wider my-1 font-bold text-2xl max-w-xs md:max-w-3xl md:text-5xl">
+            Have access to a larger 
+            audience and customer base.
+          </h2>
+        </header>
+
+        <div class="py-12">
+          <div class="feat">
+            <div class="feat-img">
+              <img src="./assets/img/product-upload.png" alt="Avalado - product upload">
+            </div>
+            
+            <div class="feat-details order-1">
+              <h3 class="feat-title">Upload your product.</h3>
+              <p class="feat-txt">
+                In simple steps, you will be able to upload all your products 
+                and their information on our platform. After this, your product 
+                will be live to buyers and you are 100% ready to start selling!
+              </p>
+            </div>
+          </div>
+
+          <div class="feat">
+            <div class="feat-img order-2">
+              <img src="./assets/img/order.png" alt="Avalado - Accept order request">
+            </div>
+            <div class="feat-details order-1">
+              <h3 class="feat-title">
+                Accept order request and leave the logistics to us
+              </h3>
+              <p class="feat-txt">
+                As a seller, yours is to just accept an order request from 
+                a buyer and we will take up the logistics responsibility
+              </p>
+            </div>
+          </div>
+
+          <div class="feat">
+            <div class="feat-img order-2 md:order-1">
+              <img src="./assets/img/payment.png" alt="Avalado - Receive your money after payment">
+            </div>
+            <div class="feat-details  order-1">
+              <h3 class="feat-title">
+                Receive your money immediately a buyer pays for the product
+              </h3>
+              <p class="feat-txt">
+                You don't need to worry about how to receive your money, 
+                we will automatically send your money to you immediately 
+                a buyer pays for your product
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contained">
+        <div class="dashboard">
+          <div>
+            <h3 class="dashboard-title">
+              Access a Dashboard that gives you insight to your activities
+            </h3>
+            <p class="sub-text max-w-md mx-auto lg:mx-0">
+              You can view all your activities and progress on your 
+              dashboard that shows you all you need to know
+            </p>
+            <div class="h-56 lg:hidden my-3">
+              <img class="dashboard-img-mobile" src="./assets/img/dashboard.png" alt="Avalado - Dashboard">
+            </div>
+            <button class="btn mt-1">Become a Supplier</button>
+          </div>
+          <!-- lg:-right-24 lg:-bottom-11 -->
+          <div class="dashboard-img-desktop">
+            <img class="lg:h-80 xl:h-96" src="./assets/img/dashboard.png" alt="Avalado - Dashboard">
+          </div>
+        </div>
+      </section>
+
+      <!-- <section class="bg-blue-50 py-16 text-center">
+        <div class="contained">          
+          <header>
+            <h4 class="font-semibold text-4xl">Pricing and Commision</h4>
+            <p class="sub-text font-bold mx-auto">
+              To start selling on Avalado is totally free. 
+              However, we charge a little commission on the goods sold
+            </p>
+          </header>
+
+          <div class=" flex justify-between">
+            <div class="bg-white p-8 rounded-3xl max-w-xs">
+              <p class="text-blue-500 text-5xl font-semibold">5%</p>
+              <p class="text-gray-600 text-sm">Commission</p>
+              <div class="mt-24 mb-10">
+                <p class="text-gray-600 text-sm py-1">Price of goods</p>
+                <p class="font-semibold">NGN 1 - 5,000</p>
+              </div>
+            </div>
+
+            <div class="bg-white p-8 rounded-3xl max-w-xs">
+              <p class="text-blue-500 text-5xl font-semibold">3%</p>
+              <p class="text-gray-600 text-sm">Commission</p>
+              <div class="mt-24 mb-10">
+                <p class="text-gray-600 text-sm py-1">Price of goods</p>
+                <p class="font-semibold">NGN 5,001 - 20,000</p>
+              </div>
+            </div>
+
+            <div class="bg-white p-8 rounded-3xl max-w-xs">
+              <p class="text-blue-500 text-5xl font-semibold">2%</p>
+              <p class="text-gray-600 text-sm">Commission</p>
+              <div class="mt-24 mb-10">
+                <p class="text-gray-600 text-sm py-1">Price of goods</p>
+                <p class="font-semibold">NGN 20,001 and above</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+    </main>
+    <footer>
+      <div class="bg-blue-900 text-white">
+        <div class="contained py-12 md:text-xl">
+          <p class="pb-4 md:pb-8 font-bold">For Enquires:</p>
+        
+          <p>✉️ Send us a mail info@avalado.ng</p>
+          <p>📞 Call us on 0701000002</p>
+        </div>
+      </div>
+
+      <nav class="bg-indigo-900">
+        <div class="contained py-8 lg:py-6 lg:flex lg:items-center lg:justify-between text-sm text-indigo-300">
+          <div class="lg:flex items-center">
+            <img class="lg:mr-2 xl:mr-6" src="./assets/img/logo-1.svg" alt="Avalado Logo - Sell your goods faster with Avalado.">
+            <ul class="my-6 lg:my-0 lg:list-disc lg:flex lg:space-x-7 lg:items-center">
+              <li class="list-none">Avalado</li>
+              <li>Privacy Policy</li>
+              <li>Terms and Conditions</li>
+              <li>Become a Supplier</li>
+            </ul>
+          </div>
+  
+          <div class="flex justify-between items-center">
+            <a class="text-indigo-500 lg:mr-3 xl:mr-8" href="mailto:info@avalado.ng">info@avalado.ng</a>
+            <div>
+              <a href="">
+                <img class="inline-block mx-2" src="./assets/img/facebook.svg" alt="Avalado - facebook">
+              </a>
+              <a href="">
+                <img class="inline-block mx-2" src="./assets/img/instagram.svg" alt="Avalado - instagram">
+              </a>
+              <a href="">
+                <img class="inline-block mx-2" src="./assets/img/twitter.svg" alt="Avalado - twitter">
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </footer>
+  </body>
+</html>
